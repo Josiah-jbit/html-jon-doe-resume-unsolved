@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jon Does resume</title>
     <link rel="stylesheet" href="./css/styles.css" />
-    <script src="js/scripts.js"></script>
+    <script src="js/scripts.js" defer></script>
   </head>
   <body class="fancy-body">
     <h1 id="candidate-name">Jon Doe</h1>
@@ -13,10 +13,10 @@
     <img
       id="candidate-image"
       src="assets/avatars/fake_person.jpg"
-      alt="Jon Doe"
+      alt="Josiah Joyner"
     />
     <h2 id="about-me">About Me</h2>
-    <p id="candidate-bio">
+    <p class="candidate-bio">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti dolor
       optio veritatis ex harum quo voluptatem ipsum nulla, sapiente recusandae
       earum. Amet pariatur placeat eligendi dolorum adipisci molestias
@@ -25,7 +25,7 @@
       deleniti, voluptatem repellat nesciunt assumenda quas maxime odio quam
       velit placeat!
     </p>
-    <h2 id="skills">My Skills</h2>
+    <h2 id="Skills">My Skills</h2>
     <ol id="skills-list">
       <li>CSS</li>
       <li>HTML</li>
@@ -34,15 +34,15 @@
       <li>ReactJS</li>
       <li>NodeJS</li>
     </ol>
-    <h2 id="hobbies-list">My Hobbies</h2>
-    <ul>
+    <h2 id="hobbies">My Hobbies</h2>
+    <ul id="hobbies-list">
       <li>CrossStiching</li>
       <li>Knitting</li>
       <li>Shuffling Around</li>
       <li>Spitting at ceiling</li>
     </ul>
     <h2 id="contacts">Contact Me</h2>
-    <table id="contacts-table">
+    <table class="contacts-table">
       <tr>
         <th>GitHub</th>
         <td>
@@ -52,20 +52,25 @@
       <tr>
         <th>LinkedIn</th>
         <td>
-          <a href="https://www.linkedin.com/in/josiah-joyner-762432310/"
-            >josiah-joyner-762432310</a
+          <a
+            href="https://www.linkedin.com/in/josiah-joyner-762432310/"
+            target="_blank"
+          >
+            josiah-joyner-762432310</a
           >
         </td>
       </tr>
       <tr>
         <th>Email</th>
-        <td><a href="mailto:siah.tru23@gmail.com">siah.tru23@gmail.com</a></td>
+        <td>
+          <a href="mailto:siah.tru23@gmail.com" target="_blank"
+            >siah.tru23@gmail.com</a
+          >
+        </td>
       </tr>
       <tr>
         <th>Discord</th>
-        <td>
-          <a href="https://discord.com/channels/josiah092157">josiah092157</a>
-        </td>
+        <td>josiah092157</td>
       </tr>
     </table>
   </body>
